@@ -11,6 +11,6 @@ class EmailParser
  end 
 
 def parse
-  @list.split.uniq 
+  @list.split.uniq! 
 end 
 end 
